@@ -30,5 +30,6 @@ public class GreetingResource {
         StringWriter stringWriter = new StringWriter();
         hello.process(Map.of("name", name), stringWriter);
         return stringWriter.toString();
+        System.out.print("TEST GIT");
     }
 }
